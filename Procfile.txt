@@ -1,1 +1,0 @@
-web: cd ./react-jwt-auth/src/index.js && npm start
