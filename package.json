@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start:react-jwt-auth": "(cd ./react-jwt-auth && npm run start)",
-    "start:backend": "(cd ./backend && npm run start)",
+    "start:react-jwt-auth": "(cd ./react-jwt-auth && npm i && npm run start)",
+    "start:backend": "(cd ./backend && npm i && npm run start)",
     "start": "npm run start:react-jwt-auth && npm run start:backend"
   },
   "engines": {
