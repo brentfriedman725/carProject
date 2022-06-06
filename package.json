@@ -5,7 +5,7 @@
   "scripts": {
     "start:react-jwt-auth": "(cd ./react-jwt-auth && npm run start)",
     "start:backend": "(cd ./backend && npm run start)",
-    "start": "start npm run start:react-jwt-auth && start npm run start:backend"
+    "start": "npm run start:react-jwt-auth && npm run start:backend"
   },
   "engines": {
     "node": "16.x"
